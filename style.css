@@ -51,6 +51,13 @@ body {
     text-decoration: underline;
 }
 
+.hero-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+
 /*Hero*/
 
 .hero {
@@ -129,24 +136,27 @@ h2{
     border: 1px solid var(--border-dark);
     color: var(--text-light);
     font-size: 14px;
-    border-radius:999999px ;
+    border-radius: 999999px ;
 }
 
 /*PROYECTS*/
 
 .proyects{
-    margin: 40px 20px 20px;
+    padding: 40px 20px 20px;
+    margin: auto;
 }
 
 .proyects h2{
     margin: 0 0 18px;
 }
 
-.proyects-list{
+.proyect-list{
     display: flex;
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .proyects-item{
@@ -156,8 +166,8 @@ h2{
     padding: 16px;
     width: 280px;
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
-    transition: all 0.3s ease;
     margin: 12px 0 8px;
+    transition: all 0.3s ease;
 }
 
 .proyects-item:hover{
